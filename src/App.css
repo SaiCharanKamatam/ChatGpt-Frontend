@@ -1,0 +1,181 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:darkseagreen;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#output-box{
+    border: 1px solid brown;
+    padding: 10px;
+    width: 800px;
+    border-radius: 3px ;
+    background-color: rgb(173, 90, 118);
+    color:rgb(187, 221, 34);
+    font-size: large;
+    font-weight: bolder;
+    
+}
+#chatgpt-input{
+    width: 500px;
+    height: 70px;
+    max-width: 500px;
+    margin-bottom: 5px;
+    min-height: 70px;
+    max-height: 200px;
+    min-width: 500px;
+    background-color: bisque;
+    border-radius: 3px ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+#input-box{
+    border: 1px solid brown;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 3px ;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    max-height: 400px;
+    justify-content: center;
+}
+h1{
+    color: antiquewhite;
+}
+#dropdown{
+    font-size: medium;
+    margin: 10px;
+}
+.select{
+    border-radius: 3px;
+    padding: 2px;
+}
+#submit-btn{
+    width: 100px;
+    margin: 5px 0;
+    border: none;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: aqua;
+    font-family:cursive;
+    font-weight: 500;
+    font-size: medium;
+    height: 30px;
+    cursor: pointer;
+
+}
+#text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#optionss{
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    color:rgb(158, 225, 245);
+    font-size: medium;
+    margin-left: 11px;
+    font-weight: 500;
+}
+#drop-label{
+    font-size: large;
+    font-weight: 400;
+    color: white;
+}
+.choices{
+    padding: 3px;
+}
+#next{
+    border: none;
+    background-color: rgb(133, 48, 48);
+    width: 50px;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: aliceblue;
+    font-size: medium;
+
+}
+
+#loading{
+    font-size: larger;
+    border: 1px solid rgb(138, 67, 67);
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(69, 150, 69);
+    text-align: center;
+    border-radius: 5px;
+}
+#topic{
+    font-size: medium;
+    margin: 10px;
+    
+}
+.ADB{
+    margin-left: 11px;
+    border: none;
+    background-color: rgb(192, 162, 162);
+    width: 160px;
+    padding: 3px;
+    border-radius: 4px;
+    color: rgb(3, 31, 56);
+    font-size: small;
+    cursor: pointer;
+    font-weight: bold;
+}
+#topic-label{
+    font-size: large;
+    font-weight: 400;
+    color: white;
+}
+
+#TBQ{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(11, 184, 54);
+    margin-top: 20px;
+    padding: 5px;
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+    border-radius: 3px;
+}
+
+.QAP{
+    /* border: 1px solid blue; */
+    margin: 3px;
+    padding: 3px;
+}
+
+#getQuestions{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+#topic-input{
+    margin: 7px;
+}
