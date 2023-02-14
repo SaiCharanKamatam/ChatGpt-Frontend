@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color:darkseagreen;
+    background-color:rgb(226, 212, 212);
 }
 .App{
     display: flex;
@@ -13,12 +13,12 @@ body{
 }
 
 #output-box{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     padding: 10px;
     width: 800px;
     border-radius: 3px ;
-    background-color: rgb(173, 90, 118);
-    color:rgb(187, 221, 34);
+    background-color: rgb(107, 173, 90);
+    color: white;
     font-size: large;
     font-weight: bolder;
     
@@ -56,7 +56,7 @@ form{
     justify-content: center;
 }
 h1{
-    color: antiquewhite;
+    color: black;
 }
 #dropdown{
     font-size: medium;
@@ -90,7 +90,7 @@ h1{
     display: flex;
     flex-direction: column;
     padding: 4px;
-    color:rgb(158, 225, 245);
+    color:black;
     font-size: medium;
     margin-left: 11px;
     font-weight: 500;
@@ -132,11 +132,11 @@ h1{
 .ADB{
     margin-left: 11px;
     border: none;
-    background-color: rgb(192, 162, 162);
+    background-color: white;
     width: 160px;
     padding: 3px;
     border-radius: 4px;
-    color: rgb(3, 31, 56);
+    color: black;
     font-size: small;
     cursor: pointer;
     font-weight: bold;
@@ -169,6 +169,8 @@ h1{
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
+     background-color: rgb(107, 173, 90);
+    color: white;
     padding: 10px;
     /* justify-content: center; */
     /* align-items: center; */
